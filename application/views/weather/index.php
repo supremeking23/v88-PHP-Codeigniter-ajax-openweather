@@ -23,7 +23,7 @@
             text-align:center;
         }
 
-        form input[type="text"] {
+        form input[type="search"] {
             outline: none;
             padding: 20px 7%;
             border-radius: 20px;
@@ -98,10 +98,10 @@
   <body>
    
     <div class="container">
-        <form action="">
+        <form action="" method="POST">
             <div class="form-group">
                 <h1>Weather Forecaster Application</h1>
-                <input type="text" class="form-control mt-5" id="forecast" aria-describedby="forecast">
+                <input type="search" class="form-control mt-5" id="forecast" aria-describedby="forecast">
             </div>
         </form>
 
